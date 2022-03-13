@@ -37,6 +37,10 @@ body {
     #mainpage-container {
         margin-left: 15vw;
     }
+
+    #desc-container {
+        height: 100vh;
+    }
 }
 
 #mainpage-container {
@@ -127,13 +131,11 @@ body {
     justify-content: space-evenly;
     font-family: "Proxima Nova";
     color: #333333;
-    height: 100vh;
 }
 
 .desc-subcontainer {
     width: 40%;
     margin-top: 10vh;
-
 }
 
 .desc-heading {
@@ -154,14 +156,38 @@ body {
 
 @media (max-aspect-ratio: 1/1) {
     #desc-container {
+        margin-top: 10vh;
         display: block;
         flex-direction: column;
+        text-align: center;
+    }
+
+    .desc-subcontainer {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .desc-2-subcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc-heading {
+        font-size: 6vh;
+    }
+
+    .desc-text {
+        max-width: 90%;
     }
 
     #page-2-container {
         display: block;
         flex-direction: column;
+        width: 100%;
+        text-align: center;
     }
+
 
     .page-2-subcontainer {
         min-width: 100vw;
