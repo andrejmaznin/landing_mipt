@@ -47,6 +47,7 @@ body {
     .page-2-text {
         height: 10vh;
     }
+
     .page-2-image {
         width: 22vw;
     }
@@ -162,10 +163,11 @@ body {
 
 @media (max-aspect-ratio: 1/1) {
     #desc-container {
-        margin-top: 10vh;
+        margin-top: 5vh;
         display: block;
         flex-direction: column;
         text-align: center;
+        height: 95vh;
     }
 
     .desc-subcontainer {
@@ -177,10 +179,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 3vh;
     }
 
     .desc-heading {
-        font-size: 6vh;
+        font-size: 4vh;
     }
 
     .desc-text {
@@ -188,6 +191,7 @@ body {
     }
 
     #page-2-container {
+        margin-top: 10vh;
         display: block;
         flex-direction: column;
         width: 100%;
@@ -212,6 +216,7 @@ body {
     .page-2-text {
         margin-top: 2vh;
         width: 100%;
+        font-style: italic;
     }
 
 
@@ -229,14 +234,16 @@ body {
         margin-top: 4vh;
         justify-content: center;
     }
-    #results-container{
+
+    #results-container {
         display: none;
     }
 
-    #heading{
+    #heading {
         font-size: 6vh;
     }
-    .bottom{
+
+    .bottom {
         margin-top: 0;
     }
 }
