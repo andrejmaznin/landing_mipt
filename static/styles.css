@@ -140,7 +140,7 @@ body {
     color: blue;
 }
 
-#page-3 {
+#explore {
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -193,7 +193,6 @@ body {
 }
 
 .head-3 {
-    margin-top: 2vh;
     text-align: center;
     font-size: 6vh;
     font-family: "Dosis";
@@ -369,10 +368,13 @@ body {
 
     .subcontainer-3 {
         max-width: 90vw;
+
     }
 
     .desc-text-3 {
         font-size: 3vh;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
     }
 
     #contact-container {
@@ -394,4 +396,23 @@ body {
         font-size: 3vh;
         margin-left: 5vw;
     }
+
+    .head-3 {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        font-size: 5vh;
+    }
+
+    .desc3-heading {
+        font-size: 3vh;
+        font-family: "Montserrat";
+        font-style: italic;
+        font-weight: normal;
+        color: black;
+    }
+
+    #explore {
+        height: 85vh;
+    }
+
 }
