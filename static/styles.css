@@ -1,37 +1,38 @@
 @font-face {
-    font-family: "Kamerik 105 Cyrillic1";
+    font-family: "Kamerik 105 Cyrillic";
     src: url("../static/fonts/Kamerik105Cyrillic-Book.ttf");
 }
 
 @font-face {
-    font-family: "Kamerik 105 Cyrillic1";
+    font-family: "Kamerik 105 Cyrillic";
     src: url("../static/fonts/Kamerik105Cyrillic-BookOblique.ttf");
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Montserrat1";
+    font-family: "Montserrat";
     src: url("../static/fonts/Montserrat-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat1";
+    font-family: "Montserrat";
     src: url("../static/fonts/Montserrat-Italic.ttf");
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Proxima Nova1";
+    font-family: "Proxima Nova";
     src: url("../static/fonts/ProximaNova-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Proxima Nova1";
+    font-family: "Proxima Nova";
     src: url("../static/fonts/ProximaNova-RegularIt.ttf");
+    font-style: italic;
 }
 
 @font-face {
-    font-family: "Dosis1";
+    font-family: "Dosis";
     src: url("../static/fonts/Dosis-Regular.ttf");
 }
 
@@ -49,7 +50,7 @@ body {
 #head-content {
     margin-top: 2vh;
     height: 6vh;
-    font-family: "Montserrat1";
+    font-family: "Montserrat";
     display: flex;
     align-items: baseline;
 }
@@ -79,7 +80,7 @@ body {
     }
 
     #desc-container {
-        height: 100vh;
+        height: 90vh;
     }
 
     .page-2-text {
@@ -89,6 +90,61 @@ body {
     .page-2-image {
         width: 22vw;
     }
+
+    .container-3 {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 85vh;
+        width: 90vw;
+    }
+
+    .subcontainer-3 {
+        max-width: 50vw;
+    }
+
+    #sub-2 {
+        margin-left: 15vw;
+    }
+
+    #sub-3 {
+        margin-left: 30vw;
+    }
+
+    #sub-4 {
+        margin-left: 45vw;
+    }
+
+    #contact-container {
+        margin-bottom: 7vh;
+        width: 100vw;
+    }
+
+    .contact {
+        font-family: "Montserrat";
+        font-size: 4vh;
+        margin-left: 5vw;
+    }
+
+    .email {
+        margin-top: 1vh;
+        font-family: "Montserrat";
+        font-size: 4vh;
+        margin-left: 5vw;
+    }
+}
+
+#email-a {
+    text-decoration: none;
+    color: blue;
+}
+
+#page-3 {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
 }
 
 #mainpage-container {
@@ -98,7 +154,7 @@ body {
 }
 
 #heading {
-    font-family: "Kamerik 105 Cyrillic1";
+    font-family: "Kamerik 105 Cyrillic";
     color: black;
     font-size: 10vh;
 }
@@ -119,13 +175,13 @@ body {
 
 #mainpage-subtext {
     margin-top: 3vh;
-    font-family: "Proxima Nova1";
+    font-family: "Proxima Nova";
     font-size: 4vh;
 }
 
 #explore-container {
     margin-top: 8vh;
-    font-family: "Proxima Nova1";
+    font-family: "Proxima Nova";
     font-size: 6vh;
     display: flex;
     flex-direction: row;
@@ -134,6 +190,24 @@ body {
 #explore-button {
     text-decoration: none;
     color: grey;
+}
+
+.head-3 {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 6vh;
+    font-family: "Dosis";
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    max-width: 90vw;
+}
+
+.desc-text-3 {
+    font-size: 3vh;
+    font-family: "Proxima Nova";
+    font-weight: lighter;
+    color: black;
 }
 
 #explore-button:hover {
@@ -146,7 +220,7 @@ body {
 
 #page-2-container {
     font-size: 4vh;
-    font-family: "Montserrat1";
+    font-family: "Montserrat";
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -174,7 +248,7 @@ body {
     flex-direction: row;
     font-size: 4vh;
     justify-content: space-evenly;
-    font-family: "Proxima Nova1";
+    font-family: "Proxima Nova";
     color: #333333;
 }
 
@@ -185,7 +259,15 @@ body {
 
 .desc-heading {
     font-size: 8vh;
-    font-family: "Dosis1";
+    font-family: "Dosis";
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+}
+
+.desc3-heading {
+    font-size: 4vh;
+    font-family: "Montserrat";
     font-style: italic;
     font-weight: normal;
     color: black;
@@ -205,7 +287,7 @@ body {
         display: block;
         flex-direction: column;
         text-align: center;
-        height: 95vh;
+        height: 80vh;
     }
 
     .desc-subcontainer {
@@ -283,5 +365,33 @@ body {
 
     .bottom {
         margin-top: 0;
+    }
+
+    .subcontainer-3 {
+        max-width: 90vw;
+    }
+
+    .desc-text-3 {
+        font-size: 3vh;
+    }
+
+    #contact-container {
+        margin-top: 4vh;
+        margin-bottom: 5vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .contact {
+        font-family: "Montserrat";
+        font-size: 3vh;
+        margin-left: 5vw;
+    }
+
+    .email {
+        margin-top: 1vh;
+        font-family: "Montserrat";
+        font-size: 3vh;
+        margin-left: 5vw;
     }
 }
