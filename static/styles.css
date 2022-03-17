@@ -8,6 +8,11 @@
     src: url("../static/fonts/Montserrat-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Proxima Nova1";
+    src: url("../static/fonts/ProximaNova-Regular.ttf");
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -91,13 +96,13 @@ body {
 
 #mainpage-subtext {
     margin-top: 3vh;
-    font-family: Proxima Nova;
+    font-family: "Proxima Nova1";
     font-size: 4vh;
 }
 
 #explore-container {
     margin-top: 8vh;
-    font-family: Proxima Nova;
+    font-family: "Proxima Nova1";
     font-size: 6vh;
     display: flex;
     flex-direction: row;
@@ -146,7 +151,7 @@ body {
     flex-direction: row;
     font-size: 4vh;
     justify-content: space-evenly;
-    font-family: "Proxima Nova";
+    font-family: "Proxima Nova1";
     color: #333333;
 }
 
