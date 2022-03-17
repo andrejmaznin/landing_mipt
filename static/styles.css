@@ -4,14 +4,37 @@
 }
 
 @font-face {
+    font-family: "Kamerik 105 Cyrillic1";
+    src: url("../static/fonts/Kamerik105Cyrillic-BookOblique.ttf");
+    font-style: italic;
+}
+
+@font-face {
     font-family: "Montserrat1";
     src: url("../static/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat1";
+    src: url("../static/fonts/Montserrat-Italic.ttf");
+    font-style: italic;
 }
 
 @font-face {
     font-family: "Proxima Nova1";
     src: url("../static/fonts/ProximaNova-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Proxima Nova1";
+    src: url("../static/fonts/ProximaNova-RegularIt.ttf");
+}
+
+@font-face {
+    font-family: "Dosis1";
+    src: url("../static/fonts/Dosis-Regular.ttf");
+}
+
 
 html, body {
     margin: 0;
@@ -26,7 +49,7 @@ body {
 #head-content {
     margin-top: 2vh;
     height: 6vh;
-    font-family: "Montserrat";
+    font-family: "Montserrat1";
     display: flex;
     align-items: baseline;
 }
@@ -162,7 +185,7 @@ body {
 
 .desc-heading {
     font-size: 8vh;
-    font-family: Dosis;
+    font-family: "Dosis1";
     font-style: italic;
     font-weight: normal;
     color: black;
